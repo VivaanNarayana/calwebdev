@@ -623,6 +623,13 @@ section {
         margin: var(--spacing-sm) 0 0 0;
         width: auto;
         min-width: 200px;
+        background: var(--primary-color) !important;
+        border-bottom: none !important;
+    }
+
+    .nav-links.active .nav-cta {
+        border-bottom: none;
+        margin-top: var(--spacing-md);
     }
 
 .nav-links.active {
